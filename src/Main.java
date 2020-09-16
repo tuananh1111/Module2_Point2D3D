@@ -8,5 +8,11 @@ public class Main {
         System.out.println(point3D.toString());
         point3D=new Point3D(5.5f,5.5f,10.0f);
         System.out.println(point3D.toString());
+
+        MoveablePoint moveablePoint=new MoveablePoint();
+        System.out.println(moveablePoint.toString());
+        moveablePoint= new MoveablePoint(10.0f,10.0f,8f,8f);
+        System.out.println(moveablePoint.toString());
+        System.out.println(moveablePoint.move());
     }
 }
